@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="dlgviewDetails" prefHeight="570.0" prefWidth="610.0" stylesheets="@mdlViewDetails.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.custom.ViewDetailsController">
+   <children>
+      <Label layoutX="215.0" layoutY="36.0" text="User Details" textFill="#ffffffe3">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font></Label>
+      <HBox layoutX="15.0" layoutY="104.0">
+         <children>
+            <VBox prefHeight="347.0" prefWidth="153.0" spacing="20.0">
+               <children>
+                  <Label contentDisplay="CENTER" graphicTextGap="0.0" maxWidth="1.7976931348623157E308" prefHeight="43.0" prefWidth="154.0" styleClass="labelSmall" text="Username" textFill="#ffffffed">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <graphic>
+                        <SVGPath content="M 27.65364074707031 74.46156311035156 L 11.84121704101563 113.7692718505859 L 186.0001831054688 113.7692718505859 L 201.8125915527344 74.46156311035156 L 27.65364074707031 74.46156311035156 M 22.24876403808594 66.46156311035156 L 213.65380859375 66.46156311035156 L 191.4050598144531 121.7692718505859 L -1.52587890625e-05 121.7692718505859 L 22.24876403808594 66.46156311035156 Z" fill="#ffffffc0" />
+                     </graphic>
+                  </Label>
+                  <Label contentDisplay="CENTER" graphicTextGap="0.0" maxWidth="1.7976931348623157E308" styleClass="labelSmall" text="Firstname" textFill="#ffffffed">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <graphic>
+                        <SVGPath content="M 27.65364074707031 74.46156311035156 L 11.84121704101563 113.7692718505859 L 186.0001831054688 113.7692718505859 L 201.8125915527344 74.46156311035156 L 27.65364074707031 74.46156311035156 M 22.24876403808594 66.46156311035156 L 213.65380859375 66.46156311035156 L 191.4050598144531 121.7692718505859 L -1.52587890625e-05 121.7692718505859 L 22.24876403808594 66.46156311035156 Z" fill="#ffffffc0" />
+                     </graphic>
+                  </Label>
+                  <Label contentDisplay="CENTER" graphicTextGap="0.0" maxWidth="1.7976931348623157E308" styleClass="labelSmall" text="Lastname" textFill="#ffffffed">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <graphic>
+                        <SVGPath content="M 27.65364074707031 74.46156311035156 L 11.84121704101563 113.7692718505859 L 186.0001831054688 113.7692718505859 L 201.8125915527344 74.46156311035156 L 27.65364074707031 74.46156311035156 M 22.24876403808594 66.46156311035156 L 213.65380859375 66.46156311035156 L 191.4050598144531 121.7692718505859 L -1.52587890625e-05 121.7692718505859 L 22.24876403808594 66.46156311035156 Z" fill="#ffffffc0" />
+                     </graphic>
+                  </Label>
+                  <Label contentDisplay="CENTER" graphicTextGap="0.0" maxWidth="1.7976931348623157E308" styleClass="labelSmall" text="Birthdate" textFill="#ffffffed">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <graphic>
+                        <SVGPath content="M 27.65364074707031 74.46156311035156 L 11.84121704101563 113.7692718505859 L 186.0001831054688 113.7692718505859 L 201.8125915527344 74.46156311035156 L 27.65364074707031 74.46156311035156 M 22.24876403808594 66.46156311035156 L 213.65380859375 66.46156311035156 L 191.4050598144531 121.7692718505859 L -1.52587890625e-05 121.7692718505859 L 22.24876403808594 66.46156311035156 Z" fill="#ffffffc0" />
+                     </graphic>
+                  </Label>
+                  <Label contentDisplay="CENTER" graphicTextGap="0.0" maxWidth="1.7976931348623157E308" styleClass="labelSmall" text="Gender" textFill="#ffffffed">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <graphic>
+                        <SVGPath content="M 27.65364074707031 74.46156311035156 L 11.84121704101563 113.7692718505859 L 186.0001831054688 113.7692718505859 L 201.8125915527344 74.46156311035156 L 27.65364074707031 74.46156311035156 M 22.24876403808594 66.46156311035156 L 213.65380859375 66.46156311035156 L 191.4050598144531 121.7692718505859 L -1.52587890625e-05 121.7692718505859 L 22.24876403808594 66.46156311035156 Z" fill="#ffffffc0" />
+                     </graphic>
+                  </Label>
+               </children>
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox prefHeight="360.0" prefWidth="328.0" spacing="20.0">
+               <children>
+                  <Label fx:id="viewUserName" contentDisplay="CENTER" graphicTextGap="0.0" maxWidth="1.7976931348623157E308" textFill="#ffffffed">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <graphic>
+                        <SVGPath content="M 24.27554321289063 69.46155548095703 L 4.4404296875 118.7692794799805 L 319.3782348632813 118.7692794799805 L 339.21337890625 69.46155548095703 L 24.27554321289063 69.46155548095703 M 22.24871826171875 66.46155548095703 L 343.65380859375 66.46155548095703 L 321.405029296875 121.7692794799805 L 0 121.7692794799805 L 22.24871826171875 66.46155548095703 Z" fill="#ffffffc0" />
+                     </graphic>
+                  </Label>
+                  <Label fx:id="viewFirstName" contentDisplay="CENTER" graphicTextGap="0.0" maxWidth="1.7976931348623157E308" textFill="#ffffffed">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <graphic>
+                        <SVGPath content="M 24.27554321289063 69.46155548095703 L 4.4404296875 118.7692794799805 L 319.3782348632813 118.7692794799805 L 339.21337890625 69.46155548095703 L 24.27554321289063 69.46155548095703 M 22.24871826171875 66.46155548095703 L 343.65380859375 66.46155548095703 L 321.405029296875 121.7692794799805 L 0 121.7692794799805 L 22.24871826171875 66.46155548095703 Z" fill="#ffffffc0" />
+                     </graphic>
+                  </Label>
+                  <Label fx:id="viewLastName" contentDisplay="CENTER" graphicTextGap="0.0" maxWidth="1.7976931348623157E308" textFill="#ffffffed">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <graphic>
+                        <SVGPath content="M 24.27554321289063 69.46155548095703 L 4.4404296875 118.7692794799805 L 319.3782348632813 118.7692794799805 L 339.21337890625 69.46155548095703 L 24.27554321289063 69.46155548095703 M 22.24871826171875 66.46155548095703 L 343.65380859375 66.46155548095703 L 321.405029296875 121.7692794799805 L 0 121.7692794799805 L 22.24871826171875 66.46155548095703 Z" fill="#ffffffc0" />
+                     </graphic>
+                  </Label>
+                  <Label fx:id="viewBirthDate" contentDisplay="CENTER" graphicTextGap="0.0" maxWidth="1.7976931348623157E308" textFill="#ffffffed">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <graphic>
+                        <SVGPath content="M 24.27554321289063 69.46155548095703 L 4.4404296875 118.7692794799805 L 319.3782348632813 118.7692794799805 L 339.21337890625 69.46155548095703 L 24.27554321289063 69.46155548095703 M 22.24871826171875 66.46155548095703 L 343.65380859375 66.46155548095703 L 321.405029296875 121.7692794799805 L 0 121.7692794799805 L 22.24871826171875 66.46155548095703 Z" fill="#ffffffc0" />
+                     </graphic>
+                  </Label>
+                  <Label fx:id="viewGender" contentDisplay="CENTER" graphicTextGap="0.0" maxWidth="1.7976931348623157E308" textFill="#ffffffed">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <graphic>
+                        <SVGPath content="M 24.27554321289063 69.46155548095703 L 4.4404296875 118.7692794799805 L 319.3782348632813 118.7692794799805 L 339.21337890625 69.46155548095703 L 24.27554321289063 69.46155548095703 M 22.24871826171875 66.46155548095703 L 343.65380859375 66.46155548095703 L 321.405029296875 121.7692794799805 L 0 121.7692794799805 L 22.24871826171875 66.46155548095703 Z" fill="#ffffffc0" />
+                     </graphic>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Button fx:id="btnClose" layoutX="265.0" layoutY="495.0" mnemonicParsing="false" text="Close">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</Pane>

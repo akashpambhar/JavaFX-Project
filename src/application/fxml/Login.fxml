@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="login" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="824.0" prefWidth="1536.0" stylesheets="@../css/login.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.LoginController">
+   <center>
+      <AnchorPane BorderPane.alignment="CENTER">
+         <children>
+            <Circle fill="#ffffff00" layoutX="1496.0" layoutY="553.0" radius="350.0" strokeType="INSIDE" AnchorPane.bottomAnchor="201.79999999999995" AnchorPane.rightAnchor="-310.0" AnchorPane.topAnchor="203.0">
+               <stroke>
+                  <LinearGradient endX="1.0" startY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6431372761726379" green="0.2549019753932953" blue="0.47058823704719543" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.37028831383670097">
+                           <color>
+                              <Color red="0.7568627595901489" green="0.3176470696926117" blue="0.4156862795352936" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.7921568751335144" green="0.2705882489681244" blue="0.250980406999588" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </stroke>
+            </Circle>
+            <Circle fill="#ffffff00" layoutX="1516.0" layoutY="556.0" radius="270.0" strokeType="INSIDE" AnchorPane.bottomAnchor="278.79999999999995" AnchorPane.rightAnchor="-250.0" AnchorPane.topAnchor="286.0">
+               <stroke>
+                  <LinearGradient startY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6431372761726379" green="0.2549019753932953" blue="0.47058823704719543" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.37028831383670097">
+                           <color>
+                              <Color red="0.7568627595901489" green="0.3176470696926117" blue="0.4156862795352936" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.7921568751335144" green="0.2705882489681244" blue="0.250980406999588" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </stroke>
+            </Circle>
+            <Circle fill="#ffffff00" layoutX="1515.7999999999947" layoutY="557.0" opacity="0.47" radius="180.0" rotate="-68.7" strokeType="INSIDE" strokeWidth="60.0" AnchorPane.bottomAnchor="367.79999999999995" AnchorPane.rightAnchor="-159.79999999999472" AnchorPane.topAnchor="377.0">
+               <stroke>
+                  <LinearGradient endX="1.0" endY="1.0" startY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6431372761726379" green="0.2549019753932953" blue="0.47058823704719543" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.37028831383670097">
+                           <color>
+                              <Color red="0.7568627595901489" green="0.3176470696926117" blue="0.4156862795352936" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.7921568751335144" green="0.2705882489681244" blue="0.250980406999588" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </stroke>
+            </Circle>
+            <Circle layoutX="1221.0" layoutY="771.0" radius="24.0" rotate="85.7" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" AnchorPane.bottomAnchor="311.4000000000001" AnchorPane.rightAnchor="291.0" AnchorPane.topAnchor="747.0">
+               <fill>
+                  <LinearGradient startY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6431372761726379" green="0.2549019753932953" blue="0.47058823704719543" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.37028831383670097">
+                           <color>
+                              <Color red="0.7568627595901489" green="0.3176470696926117" blue="0.4156862795352936" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.7921568751335144" green="0.2705882489681244" blue="0.250980406999588" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Circle layoutX="1353.0" layoutY="345.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" AnchorPane.bottomAnchor="737.4000000000001" AnchorPane.rightAnchor="159.0" AnchorPane.topAnchor="321.0">
+               <fill>
+                  <LinearGradient startY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6431372761726379" green="0.2549019753932953" blue="0.47058823704719543" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.37028831383670097">
+                           <color>
+                              <Color red="0.7568627595901489" green="0.3176470696926117" blue="0.4156862795352936" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.7921568751335144" green="0.2705882489681244" blue="0.250980406999588" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Circle>
+            <Line endX="205.0" endY="-179.39999389648438" layoutX="566.0" layoutY="321.0" startX="205.0" startY="646.199951171875" visible="false" />
+            <Rectangle arcHeight="10.0" arcWidth="10.0" height="826.0" layoutY="141.0" opacity="0.21" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="770.0">
+               <fill>
+                  <LinearGradient endX="0.01145037985940016" endY="0.015267161012605857" startX="1.0" startY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6431372761726379" green="0.2549019753932953" blue="0.47058823704719543" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.007680491551459294">
+                           <color>
+                              <Color red="0.6431372761726379" green="0.2549019753932953" blue="0.47058823704719543" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.4203296703296702">
+                           <color>
+                              <Color red="0.7568627595901489" green="0.3176470696926117" blue="0.4156862795352936" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.7921568751335144" green="0.2705882489681244" blue="0.250980406999588" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Rectangle>
+            <ImageView blendMode="MULTIPLY" fitHeight="481.0" fitWidth="584.0" layoutY="292.0" pickOnBounds="true" AnchorPane.bottomAnchor="333.4000000000001" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="292.0">
+               <image>
+                  <Image url="@../res/img_hello.jpg" />
+               </image>
+            </ImageView>
+            <VBox fx:id="loginForm" alignment="CENTER" layoutX="561.0" layoutY="325.0" prefHeight="440.0" prefWidth="418.0" style="-fx-background-color: white; -fx-background-radius: 18; -fx-border-radius: 18;">
+               <effect>
+                  <DropShadow height="48.0" radius="23.5" width="48.0">
+                     <color>
+                        <Color opacity="0.0758621022105217" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <children>
+                  <Label alignment="CENTER" text="Login">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="-130.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="msgWrongCredentials" alignment="CENTER" layoutX="194.0" layoutY="44.0" maxWidth="1.7976931348623157E308" text="Username/Password is wrong" visible="false">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="45.0" right="45.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="User Name">
+                     <VBox.margin>
+                        <Insets right="240.0" top="10.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtUserName" prefWidth="274.0" promptText="username">
+                     <VBox.margin>
+                        <Insets left="45.0" right="45.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </TextField>
+                  <Label text="Password">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets right="253.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <PasswordField fx:id="txtPassword" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="241.0" promptText="********">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="45.0" right="45.0" />
+                     </VBox.margin>
+                  </PasswordField>
+                  <Button fx:id="btnLogin" mnemonicParsing="false" onAction="#verifyLoginCredentials" prefHeight="40.0" prefWidth="328.0" text="LOG IN" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="btnExit" layoutX="55.0" layoutY="303.0" mnemonicParsing="false" onAction="#verifyLoginCredentials" prefHeight="40.0" prefWidth="328.0" text="EXIT" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <VBox.margin>
+                        <Insets top="15.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Label fx:id="lnkToRegister" layoutX="55.0" layoutY="188.0" styleClass="lnk" text="Don't have an account? Register" underline="true">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="-130.0" top="20.0" />
+                     </VBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox fx:id="registerForm" alignment="CENTER" layoutX="561.0" layoutY="245.0" prefHeight="650.0" prefWidth="418.0" style="-fx-background-color: white; -fx-background-radius: 18; -fx-border-radius: 18;" translateY="1000.0">
+               <effect>
+                  <DropShadow height="48.0" radius="23.5" width="48.0">
+                     <color>
+                        <Color opacity="0.0758621022105217" />
+                     </color>
+                  </DropShadow>
+               </effect>
+               <children>
+                  <Label alignment="CENTER" text="Register">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="5.0" top="-150.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="msgFieldsEmpty" alignment="CENTER" maxWidth="1.7976931348623157E308" text="Fill all the fields" visible="false">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="45.0" right="45.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="First Name">
+                     <VBox.margin>
+                        <Insets right="242.0" top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtFirstName" prefWidth="274.0" promptText="Name">
+                     <VBox.margin>
+                        <Insets left="45.0" right="45.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </TextField>
+                  <Label text="Last Name">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets right="245.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="txtLastName" promptText="Surname">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="45.0" right="45.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label layoutX="55.0" layoutY="203.0" text="User Name">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets right="240.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="txtRegUserName" layoutX="55.0" layoutY="230.0" promptText="Eg: tom">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="45.0" right="45.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label fx:id="msgUserName" focusTraversable="false" layoutX="60.0" layoutY="384.0" maxWidth="1.7976931348623157E308" text="User Name is already used. Please try another one" visible="false">
+                     <font>
+                        <Font name="System Bold" size="10.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="45.0" right="45.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets left="5.0" />
+                     </padding>
+                  </Label>
+                  <Label layoutX="55.0" layoutY="308.0" text="Password">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets right="253.0" top="3.0" />
+                     </VBox.margin>
+                  </Label>
+                  <PasswordField fx:id="txtRegPassword" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="241.0" promptText="********">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="45.0" right="45.0" />
+                     </VBox.margin>
+                  </PasswordField>
+                  <Label fx:id="msgPassword" focusTraversable="false" maxWidth="1.7976931348623157E308">
+                     <VBox.margin>
+                        <Insets left="45.0" right="45.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="10.0" />
+                     </font>
+                     <padding>
+                        <Insets left="5.0" />
+                     </padding>
+                  </Label>
+                  <Label text="Birth Date">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets right="248.0" top="3.0" />
+                     </VBox.margin>
+                  </Label>
+                  <DatePicker fx:id="birthDate" editable="false" maxWidth="1.7976931348623157E308" prefHeight="40.0" promptText="Select Date">
+                     <VBox.margin>
+                        <Insets left="45.0" right="45.0" />
+                     </VBox.margin>
+                  </DatePicker>
+                  <HBox prefWidth="200.0" spacing="30.0">
+                     <VBox.margin>
+                        <Insets left="45.0" right="45.0" top="20.0" />
+                     </VBox.margin>
+                     <children>
+                        <Label text="Gender :">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <RadioButton fx:id="isMale" mnemonicParsing="false" text="Male">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <toggleGroup>
+                              <ToggleGroup fx:id="gender" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton fx:id="isFemale" mnemonicParsing="false" text="Female" toggleGroup="$gender">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </RadioButton>
+                     </children>
+                  </HBox>
+                  <Button fx:id="btnRegister" mnemonicParsing="false" onAction="#register" prefHeight="40.0" prefWidth="328.0" text="REGISTER" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Label fx:id="lnkToLogin" layoutX="55.0" layoutY="361.0" styleClass="lnk" text="Back To Login" underline="true">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="-160.0" top="20.0" />
+                     </VBox.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin></AnchorPane>
+   </center>
+</BorderPane>

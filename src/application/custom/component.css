@@ -1,0 +1,32 @@
+.hbox{
+	-fx-background-color: white;
+	-fx-background-radius: 10px;	
+}
+
+.hbox:hover{
+	-fx-effect: dropshadow(three-pass-box, rgba(217.0, 44.0, 38.0, 0.2), 10, 0, 0, 0); 
+}
+
+.label{
+	-fx-text-fill: linear-gradient(to bottom right, #A44178, #C1516A, #CA4540);
+}
+
+#btnDelete{
+	-fx-background-color: rgba(217.0, 44.0, 38.0, 0.08);
+	-fx-background-radius: 5px;
+	-fx-border-radius: 5px;
+	-fx-text-fill: rgba(217.0, 44.0, 38.0, 0.9);
+}
+
+#btnView{
+	-fx-background-color: linear-gradient(to bottom right, #A44178, #C1516A, #CA4540);
+	-fx-background-radius: 5px;
+	-fx-border-radius: 5px;
+	-fx-text-fill: white;
+}
+#btnView:pressed{
+	-fx-background-color: white;
+	-fx-background-radius: 5px;
+	-fx-border-color: linear-gradient(to bottom right, #A44178, #C1516A, #CA4540);
+	-fx-text-fill: linear-gradient(to bottom right, #A44178, #C1516A, #CA4540);
+}

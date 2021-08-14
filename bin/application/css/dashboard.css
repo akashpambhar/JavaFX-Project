@@ -1,0 +1,61 @@
+.scroll-pane{
+	-fx-background-radius: 10.0px;
+	-fx-background-color: transparent;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color: rgba(217.0, 44.0, 38.0, 0.05);
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: rgba(217.0, 44.0, 38.0, 0.05);
+    -fx-border-color: transparent;
+}
+
+.increment-arrow, .decrement-arrow{
+	-fx-background-color: rgba(217.0, 44.0, 38.0, 1.0);
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: rgba(217.0, 44.0, 38.0, 0.05);
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: linear-gradient(to bottom right, #A44178, #C1516A, #CA4540);
+    -fx-opacity: 0.7;
+}
+
+.scroll-pane > .corner {
+    -fx-background-color: white;
+}
+
+.vbox{
+	-fx-background-radius: 10.0px;
+	-fx-background-color: transparent;
+}
+
+#welcomeBox, #detailsBox{
+	-fx-background-color: white;
+	-fx-background-radius: 10.0px;
+	-fx-effect: dropshadow(three-pass-box, rgba(217.0, 44.0, 38.0, 0.05), 10.0, 0.0, 0.0, 0.0);
+}
+
+#wlcmMsg, .label{
+	-fx-text-fill: linear-gradient(to top left, #A44178, #C1516A, #CA4540);
+}
+
+#btnLogOut{
+	-fx-background-color: linear-gradient(to bottom right, #A44178, #C1516A, #CA4540);
+	-fx-background-radius: 5.0px;
+	-fx-border-radius: 5.0px;
+	-fx-text-fill: white;
+}
+
+#btnLogOut:pressed{
+	-fx-background-color: white;
+	-fx-border-color: linear-gradient(to bottom right, #A44178, #C1516A, #CA4540);
+	-fx-text-fill: linear-gradient(to bottom right, #A44178, #C1516A, #CA4540);
+}

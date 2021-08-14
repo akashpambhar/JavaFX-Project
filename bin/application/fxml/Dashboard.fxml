@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="824.0" prefWidth="1536.0" stylesheets="@../css/dashboard.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.DashboardController">
+   <children>
+      <ScrollPane fx:id="scrollPane" fitToWidth="true" hbarPolicy="NEVER" layoutX="43.0" layoutY="165.0" prefHeight="655.0" prefWidth="1028.0">
+         <content>
+            <VBox fx:id="vBox" prefHeight="461.0" prefWidth="1379.0" spacing="20.0">
+               <padding>
+                  <Insets bottom="5.0" left="8.0" right="8.0" top="5.0" />
+               </padding></VBox>
+         </content>
+      </ScrollPane>
+      <HBox fx:id="welcomeBox" alignment="CENTER" layoutX="37.0" layoutY="25.0" prefHeight="100.0" prefWidth="1464.0">
+         <children>
+            <Label fx:id="wlcmMsg" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Welcome!">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <VBox fx:id="detailsBox" layoutX="1163.0" layoutY="165.0" prefHeight="559.0" prefWidth="331.0">
+         <children>
+            <Label maxWidth="1.7976931348623157E308" text="Your Details">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <padding>
+                  <Insets left="90.0" />
+               </padding>
+            </Label>
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+               <children>
+                  <Label prefWidth="96.0" text="First Name :">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblFirstName">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="30.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="45.0" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+               <children>
+                  <Label prefWidth="96.0" text="Last Name :">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblLastName">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="145.0" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+               <children>
+                  <Label prefWidth="96.0" text="Birth Date :">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblBirthDate">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="245.0" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+               <children>
+                  <Label prefWidth="96.0" text="Gender :">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblGender">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" spacing="40.0">
+               <children>
+                  <Button fx:id="btnLogOut" mnemonicParsing="false" text="Log Out">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </VBox>
+   </children>
+</Pane>
